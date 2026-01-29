@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulzetti Soccer Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Pulzetti Soccer Academy - Scuola calcio d'eccellenza">
+    <meta name="keywords" content="calcio, academy, allenamento, sport">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    
+    <!-- PRELOADER DISABILITATO
+    <div class="preloader">
+        <div class="loader">
+            <img src="assets/logo.png" alt="Logo" class="loader-logo">
+            <div class="loading-text">NPSA</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-percentage">0%</div>
+        </div>
+    </div>
+    -->
+
+    <!-- Navbar Desktop -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar d-none d-lg-block">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" alt="Logo" height="50">
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#obiettivo">
+                        <i class="fas fa-bullseye"></i> Obiettivo
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#staff">
+                        <i class="fas fa-users"></i> Staff
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#eventi">
+                        <i class="fas fa-calendar"></i> Eventi
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">
+                        <i class="fas fa-shopping-bag"></i> Shop
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Navbar Mobile -->
+<nav class="mobile-navbar d-lg-none">
+    <a href="#home" class="mobile-nav-item active">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+    </a>
+    <a href="#obiettivo" class="mobile-nav-item">
+        <i class="fas fa-bullseye"></i>
+        <span>Obiettivi</span>
+    </a>
+    <a href="#staff" class="mobile-nav-item">
+        <i class="fas fa-users"></i>
+        <span>Staff</span>
+    </a>
+    <a href="#eventi" class="mobile-nav-item">
+        <i class="fas fa-calendar"></i>
+        <span>Eventi</span>
+    </a>
+    <a href="#shop" class="mobile-nav-item">
+        <i class="fas fa-shopping-bag"></i>
+        <span>Shop</span>
+    </a>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <h1 class="hero-title">Diventa un Campione</h1>
+                    <p class="hero-subtitle">La tua eccellenza nel calcio inizia qui</p> 
+                    <a href="#obiettivo" class="btn btn-hero">Scopri di Più</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down" data-aos="fade-up" data-aos-delay="800" data-aos-duration="600">
+            <a href="#obiettivo">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Obiettivo Section -->
+    <section id="obiettivo" class="obiettivo-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                    <div class="objective-content">
+                        <span class="section-subtitle">La Nostra Missione</span>
+                        <h2 class="section-title">Formiamo i Campioni del Futuro</h2>
+                        <p class="objective-text">
+                            La nostra academy nasce con l’obiettivo di offrire a giovani calciatori un ambiente in cui possano crescere e sviluppare il proprio talento, 
+                            sia in campo che fuori. Crediamo che lo sport sia una scuola di vita e, attraverso il calcio, insegniamo valori essenziali come il lavoro di squadra, 
+                            la disciplina, la resilienza e la leadership. Questi principi sono alla base del nostro percorso formativo, che prepara i ragazzi a diventare non 
+                            solo giocatori migliori, ma anche persone di valore.
+                        </p>
+                        <p class="objective-text">
+                            Il nostro approccio innovativo unisce una formazione tecnica di alto livello con una cura particolare per l’aspetto umano, assicurandoci che ogni 
+                            atleta riceva l’attenzione e il supporto necessari per eccellere. Diamo priorità alla crescita individuale e al raggiungimento degli obiettivi, 
+                            aiutando ciascun ragazzo a esprimere al meglio il proprio potenziale.
+                        </p>
+                        <div class="objective-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Allenatori con esperienza internazionale</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Strutture all'avanguardia progettate per massimizzare la performance</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Programmi personalizzati per ogni fascia d’età e livello</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Attenzione al benessere psicofisico degli atleti</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="800">
+                    <div class="objective-image">
+                        <img src="assets/np_wintercamp.webp" alt="NP Winter Camp" class="img-fluid rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="flip-up" data-aos-duration="700">
+                    <div class="counter-box">
+                        <i class="fas fa-person"></i>
+                        <h3 class="counter" data-target="500">0</h3>
+                        <p>Atleti Formati</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-up" data-aos-duration="700" data-aos-delay="200">
+                    <div class="counter-box">
+                        <i class="fas fa-trophy"></i>
+                        <h3 class="counter" data-target="15">0</h3>
+                        <p>Anni di Esperienza</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-up" data-aos-duration="700" data-aos-delay="400">
+                    <div class="counter-box">
+                        <i class="fas fa-stopwatch"></i>
+                        <h3 class="counter" data-target="2000">0</h3>
+                        <p>Ore di Allenamento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Staff Section -->
+<section id="staff" class="staff-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Il Nostro Team</span>
+            <h2 class="section-title">Staff Tecnico</h2>
+        </div>
+        <div class="row g-4">
+            <!-- Card Staff 1 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="staff-card">
+                    <div class="staff-image-wrapper">
+                        <img src="assets/pulzetti.webp" alt="Coach" class="staff-image">
+                    </div>
+                    <div class="staff-info">
+                        <h4>Nico Pulzetti</h4>
+                        <span class="staff-role">Head Coach</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Staff 2 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="staff-card">
+                    <div class="staff-image-wrapper">
+                        <img src="assets/coach2.png" alt="Coach" class="staff-image">
+                    </div>
+                    <div class="staff-info">
+                        <h4>Edoardo Favaro</h4>
+                        <span class="staff-role">Collaboratore</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Staff 3 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="staff-card">
+                    <div class="staff-image-wrapper">
+                        <img src="assets/coach3.png" alt="Coach" class="staff-image">
+                    </div>
+                    <div class="staff-info">
+                        <h4>Tommaso Riello</h4>
+                        <span class="staff-role">Collaboratore</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Staff 4 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="staff-card">
+                    <div class="staff-image-wrapper">
+                        <img src="assets/coach3.png" alt="Coach" class="staff-image">
+                    </div>
+                    <div class="staff-info">
+                        <h4>Damiano Milan</h4>
+                        <span class="staff-role">Collaboratore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Eventi Section -->
+<section id="eventi" class="events-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up" data-aos-duration="600">
+            <span class="section-subtitle">Non perdere nessuna occasione</span>
+            <h2 class="section-title">Prossimi Eventi</h2>
+        </div>
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="600">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">01</span>
+                        <span class="month">LUG</span>
+                    </div>
+                    <div class="event-details">
+                        <h4>Summer Camp 2025</h4>
+                        <p>Iscrizioni aperte per il nostro camp estivo</p>
+                        <a href="mailto:pulzettisocceracademy@gmail.com" class="btn btn-primary">
+                            <i class="fa-regular fa-envelope"></i> Contattami
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">27-29</span>
+                        <span class="month">DIC</span>
+                    </div>
+                    <div class="event-details">
+                        <h4>Winter Camp 2025</h4>
+                        <p>Centro Sportivo Noale - Via Dei Tigli</p>
+                        <a href="mailto:pulzettisocceracademy@gmail.com" class="btn btn-primary">
+                            <i class="fa-regular fa-envelope"></i> Contattami
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">Ogni</span>
+                        <span class="month">Venerdì</span>
+                    </div>
+                    <div class="event-details">
+                        <h4>Scuola Portieri</h4>
+                        <p>Centro Sportivo Noale - Via Dei Tigli</p>
+                        <a href="mailto:pulzettisocceracademy@gmail.com" class="btn btn-primary">
+                            <i class="fa-regular fa-envelope"></i> Contattami
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="obiettivo-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                    <div class="objective-content">
+                        <span class="section-subtitle">SHOP ONLINE</span>
+                        <h2 class="section-title">Scopri il nostro catalogo</h2>
+                        <p class="objective-text">
+                            Esplora la nostra collezione di abbigliamento e accessori esclusivi. Troverai tutto ciò che ti serve per rappresentare il nostro stile, sia in campo che fuori. 
+                            Perfetti anche come idee regalo. Scarica ora il catalogo. 
+                        </p>
+                        <div class="objective-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Materiali di alta qualità per garantire comfort e durata</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Ottimi per garantire performance eccellenti in ogni situazione</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="catalogo.pdf" class="btn btn-download mt-3" download>
+                        <i class="fas fa-download"></i> Scarica Catalogo
+                    </a>
+                </div>
+                
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="800">
+                    <div class="objective-image">
+                        <img src="assets/np_merchandising.webp" alt="merch_NP" class="img-fluid rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Galleria di Immagini -->
+<section id="memories" class="galleria-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up" data-aos-duration="600">
+            <span class="section-subtitle">MOMENTI INDIMENTICABILI</span>
+            <h2 class="section-title">Passione, Divertimento, Crescita</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600">
+                <div class="gallery-item">
+                    <img src="assets/np_wintercamp.webp" alt="NP Winter Camp" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+                <div class="gallery-item">
+                    <img src="assets/img_2.webp" alt="NP Summer Camp" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+                <div class="gallery-item">
+                    <img src="assets/img_3.webp" alt="NP Autumn Festival" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                <div class="gallery-item">
+                    <img src="assets/img_4.webp" alt="NP Spring Event" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">
+                <div class="gallery-item">
+                    <img src="assets/img_5.webp" alt="NP Training" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
+                <div class="gallery-item">
+                    <img src="assets/img_6.webp" alt="NP Team" class="img-fluid rounded-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="600">
+                    <div class="footer-info">
+                        <img src="assets/logo.png" alt="Logo" class="footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <div class="footer-contact">
+                        <h4>Contatti</h4>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Via del Campo 123, Venezia, Italy<br>
+                            <i class="fas fa-phone"></i> +39 123 456 7890<br>
+                            <i class="fas fa-envelope"></i> pulzettisocceracademy@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <div class="footer-contact">
+                        <h4>Seguici</h4>
+                        <p>
+                            <a href="https://www.facebook.com/people/Pulzetti-Soccer-Academy/61552657887480/?_rdr" target="_blank" style="text-decoration: none; color: inherit;">
+                                <i class="fa-brands fa-facebook"></i> Facebook
+                            </a><br>
+                            <a href="https://www.instagram.com/nico_pulzetti_socceracademy/" target="_blank" style="text-decoration: none; color: inherit;">
+                                <i class="fa-brands fa-instagram"></i> Instagram
+                            </a><br>
+                            <a href="https://www.tiktok.com/@pulzettisocceracademy" target="_blank" style="text-decoration: none; color: inherit;">
+                                <i class="fa-brands fa-tiktok"></i> TikTok
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">© 2024 Nico Pulzetti Soccer Academy. Tutti i diritti riservati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N107J595FR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N107J595FR');
+</script>
+
+<!--Iubenda-->
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"siteId":3856742,"cookiePolicyId":94610267,"lang":"it","storage":{"useSiteId":true}};
+</script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3856742.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html> 
