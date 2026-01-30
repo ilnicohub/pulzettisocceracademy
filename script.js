@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 */
 
-// Aggiungi questo codice per gestire l'evidenziazione del menu attivo
+
 document.addEventListener('DOMContentLoaded', function() {
     const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
     const sections = document.querySelectorAll('section');
